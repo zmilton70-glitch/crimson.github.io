@@ -613,7 +613,7 @@
         </div>
     </section>
 
-    <!-- Sección Proyectos -->
+     <!-- Sección Proyectos -->
     <section class="projects" id="proyectos">
         <div class="container">
             <h2>Nuestros Proyectos</h2>
@@ -625,39 +625,60 @@
                 
                 <div class="carousel-container">
                     <div class="carousel-track">
-                        <!-- PROYECTO 3 -->
+                        <!-- PROYECTO 1 -->
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="https://media.licdn.com/dms/image/v2/D5622AQFzaTeecZfA8g/feedshare-shrink_1280/B56Zpgy_XQHIA0-/0/1762560587908?e=1764806400&v=beta&t=4Cq1SdlcbD2BanL_lodgsE4eE_FOmqm9qNeSkwN99dM" alt="p3">
+                                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Construcción de vivienda">
                             </div>
                             <div class="project-content">
-                                <h3>Transformando espacios</h3>
-                                <p>Acabamos de finalizar la remodelación del interior de una acogedora casa de 70 mt2.</p>
+                                <h3>Construcción de Vivienda</h3>
+                                <p>Proyecto completo de construcción de vivienda familiar, incluyendo diseño, estructura y acabados de alta calidad.</p>
                             </div>
                         </div>
                         
                         <!-- PROYECTO 2 -->
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="https://media.licdn.com/dms/image/v2/D5622AQGhyjmKogwP5w/feedshare-shrink_1280/B56ZpASGTNHAAs-/0/1762015107580?e=1764806400&v=beta&t=i2c6wLKJmE63RkCKlcceItwSIlofKXUX3gxHmUn9R7U" alt="p2">
+                                <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="Ampliación de casa">
                             </div>
                             <div class="project-content">
-                                <h3>Cerca</h3>
-                                <p>Proyecto de cerco con perfil galvanizado y portón corredizo en Trapén.</p>
+                                <h3>Ampliación de Casa</h3>
+                                <p>Ampliación y remodelación de vivienda existente, integrando nuevos espacios con el diseño original.</p>
                             </div>
                         </div>
                         
-                        <!-- PROYECTO 1 -->
+                        <!-- PROYECTO 3 -->
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="https://media.licdn.com/dms/image/v2/D5622AQEJWIFuJd95oA/feedshare-shrink_1280/B56ZnlXpYMJ8Aw-/0/1760489809546?e=1764806400&v=beta&t=Vy_UZMZUwFUWOYjg-K4Q4h90B0GgM99i7XSXqubI1cA" alt="p1">
+                                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Estructura metálica">
                             </div>
                             <div class="project-content">
                                 <h3>Estructura Metálica</h3>
                                 <p>Diseño e instalación de estructura metálica para bodega industrial, cumpliendo con todos los estándares de seguridad.</p>
                             </div>
                         </div>
-
+                        
+                        <!-- PROYECTO 4 -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Quincho personalizado">
+                            </div>
+                            <div class="project-content">
+                                <h3>Quincho Personalizado</h3>
+                                <p>Construcción de quincho con estructura mixta de madera y metal, ideal para reuniones familiares.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- PROYECTO 5 -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Bodega industrial">
+                            </div>
+                            <div class="project-content">
+                                <h3>Bodega Industrial</h3>
+                                <p>Estructura metálica completa para bodega de 200m² con radier de hormigón armado.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -669,7 +690,7 @@
     </section>
 
     <style>
-        /* CARRUSEL STYLES - SIN ESPACIOS BLANCOS */
+        /* CARRUSEL STYLES - MANUAL Y RESPONSIVE */
         .projects-carousel {
             position: relative;
             max-width: 1200px;
@@ -768,16 +789,14 @@
     </style>
 
     <script>
-        // CARRUSEL JAVASCRIPT - SIN ESPACIOS BLANCOS
+        // CARRUSEL JAVASCRIPT - MANUAL Y RESPONSIVE
         let currentSlide = 0;
-        let autoSlideInterval;
         let maxSlides = 0;
         let projectsPerView = 3;
         
         function initCarousel() {
             const track = document.querySelector('.carousel-track');
             const projects = document.querySelectorAll('.project-card');
-            const container = document.querySelector('.carousel-container');
             
             // Determinar cuántos proyectos caben según el ancho de pantalla
             if (window.innerWidth <= 768) {
@@ -793,9 +812,6 @@
             
             // Actualizar carrusel
             updateCarousel();
-            
-            // Auto-slide cada 5 segundos
-            startAutoSlide();
         }
 
         function moveSlide(direction) {
@@ -813,7 +829,6 @@
             
             currentSlide = newSlide;
             updateCarousel();
-            resetAutoSlide();
         }
 
         function updateCarousel() {
@@ -836,27 +851,7 @@
                 if (nextBtn) {
                     nextBtn.classList.toggle('hidden', currentSlide >= maxSlides);
                 }
-                
-                console.log(`Slide: ${currentSlide}, Max: ${maxSlides}, Proyectos por vista: ${projectsPerView}`);
             }
-        }
-
-        function startAutoSlide() {
-            autoSlideInterval = setInterval(() => {
-                if (currentSlide >= maxSlides) {
-                    // Si está al final, volver al inicio
-                    currentSlide = 0;
-                } else {
-                    // Avanzar al siguiente
-                    currentSlide++;
-                }
-                updateCarousel();
-            }, 5000);
-        }
-
-        function resetAutoSlide() {
-            clearInterval(autoSlideInterval);
-            startAutoSlide();
         }
 
         // Inicializar carrusel cuando la página cargue
@@ -1042,4 +1037,5 @@
 </style>
 </body>
 </html>
+
 
